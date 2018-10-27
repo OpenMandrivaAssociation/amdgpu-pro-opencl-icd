@@ -1,0 +1,14 @@
+# We might leave the binary blobs unstripped.
+addFilter("E: unstripped-binary-or-object")
+
+# Vulkan libraries do not follow the usual naming conventions.
+addFilter("E: incoherent-version-in-name")
+
+# Stop complaining about DKMS packages.
+addFilter("W: devel-file-in-non-devel-package")
+
+# The upstream driver keeps its files in /opt which may be against the
+# policies. However it will be easier to maintain if we keep the driver as
+# close to upstream as possible.
+addFilter("E: dir-or-file-in-opt")
+addFilter("E: outside-libdir-files")
