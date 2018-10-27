@@ -110,7 +110,7 @@ Source0:	https://www2.ati.com/drivers/linux/ubuntu/%{name}-%{basever}-%{baserel}
 # from the packages for RHEL 7.3 that still uses X11 server 1.17.
 Source1:	%{xorg_aux_pack}.tar.xz
 %endif
-Source100:	%{name}.rpmlintrc
+Source100:	amdgpu-pro-opencl-icd.rpmlintrc
 
 # Patches from ArchLinux
 Patch1:		0001-disable-firmware-copy.patch
