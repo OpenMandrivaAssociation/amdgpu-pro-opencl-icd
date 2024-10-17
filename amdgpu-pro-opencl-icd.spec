@@ -100,7 +100,7 @@ Name:		amdgpu-pro
 Version:	%{basever}.%{baserel}
 Release:	6
 License:	Freeware
-URL:		http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Driver-for-Linux-Release-Notes.aspx
+URL:		https://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Driver-for-Linux-Release-Notes.aspx
 Group:		System/Kernel and hardware
 Source0:	https://www2.ati.com/drivers/linux/ubuntu/%{name}-%{basever}-%{baserel}.tar.xz
 %if %{mdvver} < 201610
